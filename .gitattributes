@@ -1,0 +1,12 @@
+* -text
+*.rs text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+LICENSE text eol=lf
+*.ps1 text eol=crlf
+*.txt text eol=lf
+*.srt text eol=lf whitespace=-blank-at-eof

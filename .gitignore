@@ -1,0 +1,60 @@
+/target/
+/.venv/
+/.cache/
+/rustup-init.exe
+/settings.json
+/worker/__pycache__/
+/.venv-vl/
+/outputs/
+
+# Local environments, downloaded models, and private inputs
+/.venv-*/
+/venv/
+/models/
+/videos/
+/downloads/
+/logs/
+**/__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+
+# Private development history and old screenshots (keep local)
+/VALIDATION.md
+/docs/ocr-diagnosis.md
+/docs/paddle-vl-validation.md
+/docs/*.png
+!/docs/dual-regions-preview.png
+!/docs/dual-ass-preview.png
+/fixtures/*.json
+/fixtures/*.jsonl
+
+# Raw media and subtitle outputs; synthetic fixtures are the only exceptions
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.srt
+*.ass
+!/fixtures/일본어 test.mp4
+!/fixtures/재생 audio test.mp4
+!/fixtures/일본어 test.srt
+
+# Credentials and local key material
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+/.ssh/
+/.aws/
+/.azure/
+/.config/
+/hf_home/
+/huggingface/
+/.git-credentials
